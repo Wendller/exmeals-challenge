@@ -3,7 +3,7 @@ defmodule ExmealWeb.MealsViewTest do
 
   import Phoenix.View
 
-  alias Exmeal.Meal
+  alias Exmeal.Meals.Meal
 
   alias ExmealWeb.MealsView
 

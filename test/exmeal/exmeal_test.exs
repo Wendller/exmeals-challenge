@@ -3,7 +3,7 @@ defmodule Exmeal.MealTest do
 
   alias Ecto.Changeset
 
-  alias Exmeal.Meal
+  alias Exmeal.Meals.Meal
 
   describe "changeset/1" do
     test "when all params are valid, returns a valid changeset" do

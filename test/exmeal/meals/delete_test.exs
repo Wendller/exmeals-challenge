@@ -14,7 +14,7 @@ defmodule Exmeal.Meals.DeleteTest do
       response = Exmeal.delete_meal(meal.id)
 
       assert {:ok,
-              %Exmeal.Meal{
+              %Exmeal.Meals.Meal{
                 calories: 20,
                 date: ~D[2001-05-02],
                 description: "Banana",

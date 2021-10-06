@@ -14,7 +14,7 @@ defmodule Exmeal.Meals.GetTest do
       response = Exmeal.get_meal_by_id(meal.id)
 
       assert {:ok,
-              %Exmeal.Meal{
+              %Exmeal.Meals.Meal{
                 calories: 20,
                 date: ~D[2001-05-02],
                 description: "Banana",
